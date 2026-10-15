@@ -36,7 +36,7 @@
 
 | 位置 | 内容 | 当前文件 |
 | --- | --- | --- |
-| PHOTO 01 | 首页工厂照片 | factory-exterior.png |
+| PHOTO 01 | 首页工厂照片 | factory-exterior-watermarked.webp |
 | PHOTO 02 | 印尼：工厂准备与部件包装 | 待补充 |
 | PHOTO 03 | 印尼：装箱发运 | indonesia-production.png |
 | PHOTO 04 | 西藏：桥梁全景 | tibet-bridge-1.png |
@@ -59,3 +59,6 @@ WhatsApp 链接出现在首页和联系区。如更换号码，请同时修改�
 ## 发布
 
 GitHub Settings → Pages：Deploy from a branch → main → /(root)。`.nojekyll` 应保留。每次提交后可在 Actions 查看 `pages build and deployment` 是否成功。
+
+## 图片展示与保存限制
+首页工厂照片使用 1920 × 1246 的 WebP，照片内直接合成 16 处 ZHONGYE 文字水印，透明度 20%。高清原图仅在本地保留。image-protection.js 禁止图片右键菜单和拖拽；文字和链接的正常菜单不受影响。这只能阻止常见的直接保存操作，不能防止截图或通过浏览器工具下载。仓库历史中原有无水印图片不因本次替换而消失。
