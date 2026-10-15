@@ -2,10 +2,10 @@
 
 版本1已保存在 version-1 分支，线上网站仍由 main 分支发布。本分支为 2.0 修改稿。
 
-- index.html：原标志金色 Logo 版（保留用户提供的原始 PNG）
+- index.html：金色 Logo 版（使用清理黑边后的 SVG）
 - orange-preview.html：工业橙色 Logo 版
 - logo-comparison.html：相同背景和尺寸下的两版对比
-- logo-gold.png：原始金色 Logo
+- logo-gold-clean.svg：无黑色描边、透明背景的金色矢量标志；logo-gold.png 保留为原图备份
 - logo-orange.png：通过内置图像编辑工具处理的橙色 Logo，待用户选定
 
 橙色处理提示：保留原始 Z/B 交叠图形的轮廓、比例、方向及负空间，将浅金色调整为 #EE7725 工业橙，清理边缘，透明背景；不添加文字、阴影、描边、渐变或额外图案。金色版使用用户原始图片，没有生成重绘。
