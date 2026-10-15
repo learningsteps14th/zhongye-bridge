@@ -2,15 +2,15 @@
 
 版本1已保存在 version-1 分支，线上网站仍由 main 分支发布。本分支为 2.0 修改稿。
 
-- index.html：金色 Logo 版（使用清理黑边后的 SVG）
+- index.html：已选定的金色细黑边 Logo 版（logo-gold-outlined.png）
 - orange-preview.html：工业橙色 Logo 版
 - logo-comparison.html：相同背景和尺寸下的两版对比
-- logo-gold-clean.svg：无黑色描边、透明背景的金色矢量标志；logo-gold.png 保留为原图备份
+- logo-gold-outlined.png：已选定的金色细黑边标志，页头与页脚共用；logo-gold.png 保留为原图备份
 - logo-orange.png：通过内置图像编辑工具处理的橙色 Logo，待用户选定
 
 橙色处理提示：保留原始 Z/B 交叠图形的轮廓、比例、方向及负空间，将浅金色调整为 #EE7725 工业橙，清理边缘，透明背景；不添加文字、阴影、描边、渐变或额外图案。金色版使用用户原始图片，没有生成重绘。
 
-选定颜色后再将最终改版发布到 main。不要在未决定时覆盖版本1分支。
+已选定金色细黑边 Logo。本次保存到 version-2.0 分支，线上 main 仍保留版本1。发布完整 2.0 时再合并到 main；不要覆盖 version-1 备份分支。
 
 ---
 # Zhongye 网站维护
