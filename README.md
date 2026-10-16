@@ -15,7 +15,7 @@
 ---
 # Zhongye 网站维护
 
-网站：https://learningsteps14th.github.io/zhongye-bridge/
+网站：https://zhongye-steelbridge.github.io/zhongye-bridge/
 
 本网站现在由 GitHub 独立维护。页面、样式、图片全部在本仓库，不依赖 Framer，也不需要付费建站工具。提交到 `main` 分支后，GitHub Pages 会自动发布。
 
