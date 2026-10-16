@@ -1,6 +1,6 @@
 # Zhongye 网站维护
 
-网站：https://learningsteps14th.github.io/zhongye-bridge/
+网站：https://zhongye-steelbridge.github.io/zhongye-bridge/
 
 本网站现在由 GitHub 独立维护。页面、样式、图片全部在本仓库，不依赖 Framer，也不需要付费建站工具。提交到 `main` 分支后，GitHub Pages 会自动发布。
 
@@ -44,3 +44,4 @@ WhatsApp 链接出现在首页和联系区。如更换号码，请同时修改�
 ## 发布
 
 GitHub Settings → Pages：Deploy from a branch → main → /(root)。`.nojekyll` 应保留。每次提交后可在 Actions 查看 `pages build and deployment` 是否成功。
+
